@@ -1,0 +1,10 @@
+untuk mengaktifkan sms-d:
+/etc/init.d/gammu-smsd start
+untuk menonaktifkan:
+/etc/init.d/gammu-smsd stop
+untuk melakukan pengecekan modem:
+gammu identify
+untuk melihat port modem:
+ wvdialconf
+untuk setting gammu-smsdrc:
+nano /root/.gammurc
